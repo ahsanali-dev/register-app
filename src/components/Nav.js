@@ -1,6 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.css";
+import './nav.css';
 
 const Nav = () => {
   return (
@@ -22,20 +23,20 @@ const Nav = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link to="/">
+                <NavLink to="/">
                   <span className="nav-link active">Home</span>
-                </Link>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <Link to="/about">
+                <NavLink to="/about">
                   <span className="nav-link">About</span>
-                </Link>
+                </NavLink>
               </li>
 
               <li className="nav-item">
-                <Link to="/register">
+                <NavLink to="/register">
                   <span className="nav-link">Register</span>
-                </Link>
+                </NavLink>
               </li>
             </ul>
           </div>
