@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "password": "ahsan"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "password": "ahsan2"
+    },
+    {
+      "name": "Ahsan Ali",
+      "email": "adminhr@gmail.com",
+      "password": "hxjzbj",
+      "id": 3
+    },
+    {
+      "name": "Britanney Rivas",
+      "email": "risokiw@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "id": 4
+    },
+    {
+      "name": "Savannah Mcpherson",
+      "email": "rywi@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "id": 5
+    },
+    {
+      "name": "Rylee Dorsey",
+      "email": "fone@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "id": 6
+    }
+  ]
+}
